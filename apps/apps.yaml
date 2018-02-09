@@ -1,0 +1,14 @@
+vacuum:
+  module: vacuum
+  class: Vacuum
+  time: "12:13"
+  device: roomba
+  lights:
+    - light.pepelatz_lamp_right
+    - light.tv_floor_lamp_left
+    - light.tv_floor_lamp_right
+    - light.roman_lamp_left
+    - light.roman_lamp_right
+    - light.column_lamp_upper
+    - light.column_lamp_middle
+    - light.column_lamp_lower

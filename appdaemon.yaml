@@ -1,0 +1,12 @@
+log:
+  logfile: STDOUT
+  errorfile: STDERR
+appdaemon:
+  threads: 10
+  api_port: !secret api_port
+  api_key: !secret api_key
+  plugins:
+    HASS:
+      type: hass
+      ha_url: !secret hass_url
+      ha_key: !secret hass_api_key
