@@ -1,7 +1,8 @@
 vacuum:
   module: vacuum
   class: Vacuum
-  time: "12:13"
+  vacuuming_time: "12:13"
+  reset_time: "20:00"
   device: roomba
   lights:
     - light.pepelatz_lamp_right
