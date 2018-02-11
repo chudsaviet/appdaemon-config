@@ -2,9 +2,13 @@ vacuum:
   module: vacuum
   class: Vacuum
   vacuuming_time: "12:13"
-  reset_time: "20:00"
+  reset_time: "19:00"
   device: roomba
+  device_trackers:
+    - svetlanaiphonedhcp
+    - timofeiiphonedhcp
   lights:
+    - light.pepelatz_lamp_left
     - light.pepelatz_lamp_right
     - light.tv_floor_lamp_left
     - light.tv_floor_lamp_right

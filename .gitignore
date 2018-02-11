@@ -105,3 +105,6 @@ secrets.yaml
 
 # Idea
 .idea/*
+
+# Test deployment
+test_deploy.sh
